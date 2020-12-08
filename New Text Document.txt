@@ -1,0 +1,317 @@
+Microsoft Windows [Version 10.0.19041.630]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+J:\JashBhaveshShah\rs>git clone https://github.com/sajib1066/django-event-management.git
+fatal: destination path 'django-event-management' already exists and is not an empty directory.
+
+J:\JashBhaveshShah\rs>cd django-event-management
+
+J:\JashBhaveshShah\rs\django-event-management>python -m venv env
+
+J:\JashBhaveshShah\rs\django-event-management>source env/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+J:\JashBhaveshShah\rs\django-event-management>venv\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management> venv\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management>\venv\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management>\env\Scripts\activate.bat
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management>\env\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management>cd env
+
+J:\JashBhaveshShah\rs\django-event-management\env>cd Scripts
+
+J:\JashBhaveshShah\rs\django-event-management\env\Scripts>&.\activate
+& was unexpected at this time.
+
+J:\JashBhaveshShah\rs\django-event-management\env\Scripts>venv\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management\env\Scripts>cd actiavte
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management\env\Scripts>.\env\Scripts\activate
+The system cannot find the path specified.
+
+J:\JashBhaveshShah\rs\django-event-management\env\Scripts>cd ../..
+
+J:\JashBhaveshShah\rs\django-event-management>.\env\Scripts\activate
+
+(env) J:\JashBhaveshShah\rs\django-event-management>pip install -r requirements.txt
+Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'
+You are using pip version 10.0.1, however version 20.3 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(env) J:\JashBhaveshShah\rs\django-event-management>python -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/55/73/bce122d1ed0217b3c1a3439ab16dfa94bbeabd0d31755fcf907493abf39b/pip-20.3-py2.py3-none-any.whl (1.5MB)
+    100% |████████████████████████████████| 1.5MB 1.2MB/s
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-20.3
+
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>pip install --save asgiref==3.2.10 bson==0.5.8 dataclasses==0.6 Django==2.2.13 django-betterforms==1.2 django-ckeditor==5.9.0 django-crispy-forms==1.9.1 django-js-asset==1.2.2 django-mapbox-location-field==1.5.0 djongo==1.3.2 dnspython==1.16.0 Pillow==7.1.2 pymongo==3.10.1 python-dateutil==2.8.1 pytz==2020.1 six==1.15.0 sqlparse==0.2.4
+
+Usage:
+  pip install [options] <requirement specifier> [package-index-options] ...
+  pip install [options] -r <requirements file> [package-index-options] ...
+  pip install [options] [-e] <vcs project url> ...
+  pip install [options] [-e] <local project path> ...
+  pip install [options] <archive url/path> ...
+
+no such option: --save
+
+(env) J:\JashBhaveshShah\rs\django-event-management>pip install asgiref==3.2.10 bson==0.5.8 dataclasses==0.6 Django==2.2.13 django-betterforms==1.2 django-ckeditor==5.9.0 django-crispy-forms==1.9.1 django-js-asset==1.2.2 django-mapbox-location-field==1.5.0 djongo==1.3.2 dnspython==1.16.0 Pillow==7.1.2 pymongo==3.10.1 python-dateutil==2.8.1 pytz==2020.1 six==1.15.0 sqlparse==0.2.4
+Collecting asgiref==3.2.10
+  Downloading asgiref-3.2.10-py3-none-any.whl (19 kB)
+Collecting bson==0.5.8
+  Downloading bson-0.5.8.tar.gz (10 kB)
+Collecting dataclasses==0.6
+  Downloading dataclasses-0.6-py3-none-any.whl (14 kB)
+Collecting Django==2.2.13
+  Downloading Django-2.2.13-py3-none-any.whl (7.5 MB)
+     |████████████████████████████████| 7.5 MB 3.0 kB/s
+Collecting django-betterforms==1.2
+  Downloading django-betterforms-1.2.tar.gz (16 kB)
+Collecting django-ckeditor==5.9.0
+  Downloading django_ckeditor-5.9.0-py2.py3-none-any.whl (2.4 MB)
+     |████████████████████████████████| 2.4 MB 26 kB/s
+Collecting django-crispy-forms==1.9.1
+  Downloading django_crispy_forms-1.9.1-py2.py3-none-any.whl (108 kB)
+     |████████████████████████████████| 108 kB 409 kB/s
+Collecting django-js-asset==1.2.2
+  Downloading django_js_asset-1.2.2-py2.py3-none-any.whl (5.8 kB)
+Collecting django-mapbox-location-field==1.5.0
+  Downloading django-mapbox-location-field-1.5.0.tar.gz (16 kB)
+Collecting djongo==1.3.2
+  Downloading djongo-1.3.2.tar.gz (330 kB)
+     |████████████████████████████████| 330 kB 2.2 MB/s
+Collecting dnspython==1.16.0
+  Downloading dnspython-1.16.0-py2.py3-none-any.whl (188 kB)
+     |████████████████████████████████| 188 kB 504 kB/s
+Collecting Pillow==7.1.2
+  Downloading Pillow-7.1.2-cp37-cp37m-win32.whl (1.8 MB)
+     |████████████████████████████████| 1.8 MB 132 kB/s
+Collecting pymongo==3.10.1
+  Downloading pymongo-3.10.1-cp37-cp37m-win32.whl (348 kB)
+     |████████████████████████████████| 348 kB 4.6 kB/s
+Collecting python-dateutil==2.8.1
+  Downloading python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+     |████████████████████████████████| 227 kB 930 kB/s
+Collecting pytz==2020.1
+  Downloading pytz-2020.1-py2.py3-none-any.whl (510 kB)
+     |████████████████████████████████| 510 kB 50 kB/s
+Collecting six==1.15.0
+  Downloading six-1.15.0-py2.py3-none-any.whl (10 kB)
+Collecting sqlparse==0.2.4
+  Downloading sqlparse-0.2.4-py2.py3-none-any.whl (38 kB)
+Using legacy 'setup.py install' for bson, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for django-betterforms, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for django-mapbox-location-field, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for djongo, since package 'wheel' is not installed.
+Installing collected packages: six, sqlparse, pytz, python-dateutil, pymongo, django-js-asset, Django, dataclasses, bson, Pillow, dnspython, djongo, django-mapbox-location-field, django-crispy-forms, django-ckeditor, django-betterforms, asgiref
+    Running setup.py install for bson ... done
+    Running setup.py install for djongo ... done
+    Running setup.py install for django-mapbox-location-field ... done
+    Running setup.py install for django-betterforms ... done
+Successfully installed Django-2.2.13 Pillow-7.1.2 asgiref-3.2.10 bson-0.5.8 dataclasses-0.6 django-betterforms-1.2 django-ckeditor-5.9.0 django-crispy-forms-1.9.1 django-js-asset-1.2.2 django-mapbox-location-field-1.5.0 djongo-1.3.2 dnspython-1.16.0 pymongo-3.10.1 python-dateutil-2.8.1 pytz-2020.1 six-1.15.0 sqlparse-0.2.4
+
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, events, sessions
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying events.0001_initial... OK
+  Applying events.0002_auto_20200724_1323... OK
+  Applying sessions.0001_initial... OK
+
+(env) J:\JashBhaveshShah\rs\django-event-management>python manage.py createsuperuser
+Username (leave blank to use 'jashbhaveshshah'):  python manage.py runserver
+Error: Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.
+Username (leave blank to use 'jashbhaveshshah'): python manage.py runserver
+Error: Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.
+Username (leave blank to use 'jashbhaveshshah'):
+Email address: j
+Error: Enter a valid email address.
+Email address: jash@gmail.com
+Password:
+Password (again):
+Error: Your passwords didn't match.
+Password:
+Password (again):
+This password is too short. It must contain at least 8 characters.
+This password is too common.
+Bypass password validation and create user anyway? [y/N]: y
+Superuser created successfully.
+
+(env) J:\JashBhaveshShah\rs\django-event-management>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 01, 2020 - 19:32:53
+Django version 2.2.13, using settings 'event_management.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[01/Dec/2020 19:33:11] "GET / HTTP/1.1" 302 0
+[01/Dec/2020 19:33:11] "GET /login/?next=/ HTTP/1.1" 200 4691
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:11] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:11] "GET /static/plugins/overlayScrollbars/css/OverlayScrollbars.min.css HTTP/1.1" 200 19735
+[01/Dec/2020 19:33:11] "GET /static/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js HTTP/1.1" 200 42395
+[01/Dec/2020 19:33:11] "GET /static/js/adminlte.js HTTP/1.1" 200 59778
+[01/Dec/2020 19:33:11] "GET /static/plugins/jquery/jquery.min.js HTTP/1.1" 200 88147
+[01/Dec/2020 19:33:11] "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 80704
+[01/Dec/2020 19:33:11] "GET /static/js/demo.js HTTP/1.1" 200 13042
+[01/Dec/2020 19:33:11] "GET /static/plugins/jquery-mousewheel/jquery.mousewheel.js HTTP/1.1" 200 8488
+[01/Dec/2020 19:33:11] "GET /static/plugins/jquery-mapael/jquery.mapael.min.js HTTP/1.1" 200 35974
+[01/Dec/2020 19:33:11] "GET /static/plugins/jquery-mapael/maps/usa_states.min.js HTTP/1.1" 200 60835
+[01/Dec/2020 19:33:12] "GET /static/css/adminlte.min.css HTTP/1.1" 200 689685
+[01/Dec/2020 19:33:12] "GET /static/js/pages/dashboard2.js HTTP/1.1" 200 6687
+[01/Dec/2020 19:33:12] "GET /static/plugins/fontawesome-free/css/all.min.css HTTP/1.1" 200 58582
+[01/Dec/2020 19:33:12] "GET /static/plugins/chart.js/Chart.min.js HTTP/1.1" 200 172819
+[01/Dec/2020 19:33:12] "GET /static/plugins/raphael/raphael.min.js HTTP/1.1" 200 93167
+[01/Dec/2020 19:33:14] "GET /static/plugins/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79444
+[01/Dec/2020 19:33:14] "GET /static/plugins/fontawesome-free/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76612
+Not Found: /favicon.ico
+[01/Dec/2020 19:33:15] "GET /favicon.ico HTTP/1.1" 404 2811
+[01/Dec/2020 19:33:30] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:30] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:33] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:33] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:35] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:35] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:36] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:36] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:40] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:40] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:45] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:45] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:57] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:57] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:33:58] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:33:58] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:34:03] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:34:03] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:34:04] "POST /login/?next=/ HTTP/1.1" 200 4727
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:34:04] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>
+(env) J:\JashBhaveshShah\rs\django-event-management>python manage.py createsuperuser
+Username: JashBhaveshShah
+Email address: thejashbhaveshshah@gmail.com
+Password:
+Password (again):
+Error: Your passwords didn't match.
+Password:
+Password (again):
+Error: Your passwords didn't match.
+Password:
+Password (again):
+The password is too similar to the username.
+Bypass password validation and create user anyway? [y/N]: n
+Password:
+Password (again):
+Superuser created successfully.
+
+(env) J:\JashBhaveshShah\rs\django-event-management>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 01, 2020 - 19:38:11
+Django version 2.2.13, using settings 'event_management.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[01/Dec/2020 19:38:21] "GET / HTTP/1.1" 302 0
+[01/Dec/2020 19:38:21] "GET /login/?next=/ HTTP/1.1" 200 4691
+Not Found: /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+[01/Dec/2020 19:38:21] "GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css HTTP/1.1" 404 2925
+[01/Dec/2020 19:38:34] "POST /login/?next=/ HTTP/1.1" 302 0
+[01/Dec/2020 19:38:34] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:38:34] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:38:34] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:38:34] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:38:34] "GET /static/img/logo.png HTTP/1.1" 200 10380
+[01/Dec/2020 19:38:34] "GET /static/img/user.jpg HTTP/1.1" 200 142373
+[01/Dec/2020 19:38:34] "GET /static/plugins/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13584
+[01/Dec/2020 19:39:04] "GET /static/js/adminlte.js.map HTTP/1.1" 404 1792
+[01/Dec/2020 19:39:04] "GET /static/plugins/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 318045
+[01/Dec/2020 19:39:04] "GET /static/css/adminlte.min.css.map HTTP/1.1" 404 1810
+[01/Dec/2020 19:41:33] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:33] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:33] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:33] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:36] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:36] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:36] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:36] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:37] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:37] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:37] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:38] "GET / HTTP/1.1" 200 17891
+[01/Dec/2020 19:41:38] "GET /static/img/user1-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:38] "GET /static/img/user8-128x128.jpg HTTP/1.1" 404 1801
+[01/Dec/2020 19:41:38] "GET /static/img/user3-128x128.jpg HTTP/1.1" 404 1801
